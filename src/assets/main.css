@@ -1,0 +1,38 @@
+:root {
+  --color-white: #fff;
+  --color-orange: #ff7d00;
+  --color-blue-gray: #375166;
+  --color-dark-blue: #131d27;
+  --color-checked: #536470;
+  --color-card-box-shadow: rgba(255, 255, 255, 0.3);
+}
+
+/*THEME OVERRIDES*/
+.v-application {
+  background-color: var(--color-blue-gray) !important;
+}
+
+.v-text-field .v-input__details {
+  padding-bottom: 0.5rem;
+}
+
+body .bg-primary {
+  background-color: var(--color-orange) !important;
+}
+
+.v-icon,
+.v-btn--icon {
+  color: var(--color-white) !important;
+}
+
+.visually-hidden {
+  border: 0 !important;
+  clip: rect(0, 0, 0, 0) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  white-space: nowrap !important;
+  width: 1px !important;
+}

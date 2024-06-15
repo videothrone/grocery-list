@@ -1,0 +1,82 @@
+.grocery-list {
+  display: flex;
+  justify-content: center;
+}
+
+.grocery-list__form {
+  width: 30rem;
+
+  @media (max-width: 480px) {
+    width: 100%;
+  }
+}
+
+.grocery-list__form-buttons {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+
+.grocery-list__form-buttons-reset {
+  background-color: transparent;
+  box-shadow: none;
+  margin-right: -0.5rem;
+
+  &:hover {
+    box-shadow: none;
+  }
+}
+
+.grocery-list__list-item-edit,
+.modal-button-edit {
+  color: var(--color-orange) !important;
+}
+
+.grocery-list__list-container {
+  margin-top: 1.25rem;
+}
+
+.grocery-list__list {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  gap: 10px;
+  justify-content: center;
+  max-width: 1280px;
+}
+
+.grocery-list__list-item-card {
+  background-color: var(--color-dark-blue);
+  padding: 0.5rem;
+
+  &:hover,
+  &:focus-within {
+    box-shadow: 0 0 10px 3px var(--color-card-box-shadow);
+    transition: 0.3s ease-in;
+  }
+}
+
+.grocery-list__list-item-card-title,
+.grocery-list__list-item-card-text {
+  padding-bottom: 0;
+}
+
+.grocery-list__list-item-card-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -0.4rem;
+  width: 100%;
+}
+
+.grocery-list__list-item-card-checkbox {
+  margin-top: -0.4rem;
+}
+
+.grocery-list__form-error-message {
+  color: var(--color-white);
+  margin-top: 1rem;
+}
+
+.grocery-list__list-item-card--checked {
+  background-color: var(--color-checked) !important;
+}
