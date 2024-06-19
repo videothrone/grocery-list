@@ -5,7 +5,15 @@ A Vue-based app allowing users to plan their grocery shopping. Initially done as
 ## Tech
 
 - Vue 3 is bootstrapped /w Vite, Material Design and Markup / Icon elements done with Vuetify, basic tests /w Vitest, routing /w Vue-Router
-- Since I have no deeper knowledge of Vuetify, this app is using the standard dark theme, which I've modified /w SCSS-Overrides
+- Since I have no deeper knowledge of Vuetify, this app is using the standard dark theme, which I've modified /w some theme and SCSS-Overrides
+
+## Live
+
+[https://grocery-list-x.netlify.app/](https://grocery-list-x.netlify.app/)
+
+## Deployment Status
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0086c60f-e47c-4eb9-b5cc-3d88b0be4659/deploy-status)](https://app.netlify.com/sites/grocery-list-x/deploys)
 
 ## Structure
 
