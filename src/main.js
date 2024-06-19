@@ -17,7 +17,21 @@ const vuetify = createVuetify({
   components,
   directives,
   theme: {
-    defaultTheme: 'dark'
+    defaultTheme: 'dark',
+    themes: {
+      dark: {
+        colors: {
+          background: '#ffffff',
+          primary: '#4caf50',
+          secondary: '#8bc34a',
+          accent: '#cddc39',
+          error: '#ff0000',
+          warning: '#e91e63',
+          info: '#00bcd4',
+          success: '#4caf50'
+        }
+      }
+    }
   }
 });
 
