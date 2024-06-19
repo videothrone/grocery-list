@@ -1,9 +1,13 @@
-.header {
-  background-color: var(--color-blue-gray);
+.header__headline {
+  display: flex;
+  font-family: 'Playwrite NO', cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: bold;
+  gap: 1rem;
+  justify-content: center;
 }
 
-.header__headline--orange {
-  color: var(--color-orange);
-  hyphens: auto;
-  word-wrap: break-word;
+.header__headline-icon {
+  color: var(--color-green);
 }
