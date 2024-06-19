@@ -21,16 +21,12 @@
 .grocery-list__form-buttons-reset {
   background-color: transparent;
   box-shadow: none;
+  color: var(--color-green);
   margin-right: -0.5rem;
 
   &:hover {
     box-shadow: none;
   }
-}
-
-.grocery-list__list-item-edit,
-.modal-button-edit {
-  color: var(--color-orange) !important;
 }
 
 .grocery-list__list-container {
@@ -46,7 +42,7 @@
 }
 
 .grocery-list__list-item-card {
-  background-color: var(--color-dark-blue);
+  background-color: var(--color-green);
   padding: 0.5rem;
 
   &:hover,
@@ -73,7 +69,6 @@
 }
 
 .grocery-list__form-error-message {
-  color: var(--color-white);
   margin-top: 1rem;
 }
 

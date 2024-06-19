@@ -1,28 +1,14 @@
 :root {
   --color-white: #fff;
-  --color-orange: #ff7d00;
-  --color-blue-gray: #375166;
-  --color-dark-blue: #131d27;
+  --color-green: #4caf50;
   --color-checked: #536470;
   --color-card-box-shadow: rgba(255, 255, 255, 0.3);
 }
 
 /*THEME OVERRIDES*/
-.v-application {
-  background-color: var(--color-blue-gray) !important;
-}
 
 .v-text-field .v-input__details {
   padding-bottom: 0.5rem;
-}
-
-body .bg-primary {
-  background-color: var(--color-orange) !important;
-}
-
-.v-icon,
-.v-btn--icon {
-  color: var(--color-white) !important;
 }
 
 .visually-hidden {
