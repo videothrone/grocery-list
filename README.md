@@ -4,7 +4,7 @@ A Vue-based app allowing users to plan their grocery shopping. Initially done as
 
 ## Tech
 
-- Vue 3 is bootstrapped /w Vite, Material Design and Markup / Icon elements done with Vuetify, basic tests /w Vitest, routing /w Vue-Router
+- Vue 3 is bootstrapped with Vite, Material Design and Markup / Icon elements done with Vuetify, basic tests with Vitest, routing with Vue-Router
 - Since I have no deeper knowledge of Vuetify, this app is using the standard dark theme, which I've modified /w some theme and SCSS-Overrides
 
 ## Preview
@@ -21,8 +21,8 @@ A Vue-based app allowing users to plan their grocery shopping. Initially done as
 
 ## Structure
 
-- The app has three possible paths and two views, HomeView is the whole app, `/groceries planner` only shows the actual component, every other path is served by a basic 404 page
-- HomeView displays the header and the actual GroceriesPlaner app, which in turn contains the modal for editing the products - EditModal
+- The app has three possible paths and two views, `HomeView` is the whole app, `/groceries planner` only shows the actual component, every other path is served by a basic `404` page
+- `HomeView` displays the header and the actual `GroceriesPlaner` app, which in turn contains the modal for editing the products - `EditModal`
 
 ## Functionality
 
