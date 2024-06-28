@@ -1,11 +1,15 @@
 # Grocery list
 
-A Vue-based app allowing users to plan their grocery shopping. Initially done as a test assignement for a job application.
+A Vue-based app allowing users to plan their grocery shopping. Initially done as a test assignement for a job application. The use of Vue, Vuetify and one basic test were a requirement.
 
 ## Tech
 
 - Vue 3 is bootstrapped /w Vite, Material Design and Markup / Icon elements done with Vuetify, basic tests /w Vitest, routing /w Vue-Router
 - Since I have no deeper knowledge of Vuetify, this app is using the standard dark theme, which I've modified /w some theme and SCSS-Overrides
+
+## Preview
+
+[![Grocery List](/public/screenshot.png)](https://grocery-list-x.netlify.app/)
 
 ## Live
 
@@ -27,9 +31,13 @@ A Vue-based app allowing users to plan their grocery shopping. Initially done as
 - The two buttons on the product tiles are "Edit" and "Delete". "Delete" does what it says, "Edit" opens the `EditModal` component, which as the name suggests is a modal that - to a certain extent - mirrors the form of `GroceryList`. The two values can be adjusted, both inputs fields have the same validation and the product can be saved or the process can be cancelled with the "Cancel" button. Alternatively, the modal can also be closed with a click outside of the modal box or by pressing the ESC key.
 - Product data is saved in localStorage
 
-## Future
+## Bugs
 
-- Date picker, Notifications, PWA
+- There's a bug, that sometimes prevents reopening closed modals. It seems to have something to do with Vuetify, probably a watcher is missing somewhere. I'll debug / fix it, when I get to it. :)
+
+## Possible Future Features
+
+- Categories, Date picker, Notifications, Adding Nuxt, App as PWA
 
 ## Recommended IDE Setup
 
